@@ -7,13 +7,13 @@ API provider: https://openweathermap.org/api
 ## Call current weather data
 
 
--- __*API request using lat and long coordinates for city*__
+-- ***API request using lat and long coordinates for city***
 
 ![API call using lat and long coords.](https://raw.githubusercontent.com/AbelPetrova/Postman_RestAPI/main/Screenshots/Call%20current%20weather%20data.jpg)
 
 :page_with_curl: JSON output [here](JsonOutputs/APIcallUsingLong&Lat.json).
 
-_Details:_ An API call which shows the current weather data for Bucharest by using lat and long parameters. Units parameter has also been added in order to convert the temperature from Kelvin to Celsius units.
+_Details:_ An API call which shows the current weather data for Bucharest by using `lat` and `long` parameters. `Units` parameter has also been added in order to convert the temperature from Kelvin to Celsius units.
 
 
 
@@ -23,9 +23,11 @@ _Details:_ An API call which shows the current weather data for Bucharest by usi
 
 :page_with_curl: JSON output [here](JsonOutputs/APIcallUsingCityName.json).
 
-_Details:_ An API call which shows the current weather data for Nuuk city by using q parameter. Also long parameter has also been added to get the output in Romanian language. 
+_Details:_ An API call which shows the current weather data for Nuuk city by using `q` parameter. Also `lang` parameter has also been added to get the output in Romanian language. 
 
  
+## Call 5 day / 3 hour forecast data
+
 
 
 

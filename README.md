@@ -28,6 +28,11 @@ _Details:_ An API call which shows the current weather data for Nuuk city by usi
  
 ## Call 5 day / 3 hour forecast data
 
+![API call using name for city](https://raw.githubusercontent.com/AbelPetrova/Postman_RestAPI/main/Screenshots/APICall5day3hourForecastData.jpg)
+
+:page_with_curl: JSON output [here](JsonOutputs/APIcall5day3hourForecastData.json).
+
+_Details:_ An API call showing 3 day forecast data using `cnt` parameter which shortens the data from 5 days to 3 only. Additional `Units` and `lang` parameters has also been added. 
 
 
 
